@@ -1,4 +1,5 @@
 {
+    "files.associations": { "*.css": "tailwindcss" },
     "cSpell.words": [
         "daisyui",
         "tailwindcss"
