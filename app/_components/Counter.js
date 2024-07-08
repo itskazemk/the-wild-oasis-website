@@ -7,10 +7,13 @@ export default function Counter() {
 
   return (
     <div>
-      <button className="btn" onClick={() => setCount((c) => c + 1)}>
+      <button
+        className="btn btn-success"
+        onClick={() => setCount((c) => c + 1)}
+      >
         {count}
       </button>
-      <button className="btn">Button</button>
+      <button className="btn btn-secondary">Button</button>
     </div>
   );
 }
